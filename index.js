@@ -88,15 +88,15 @@ const EventEmitter = require("events");
 
 // const Ex12Eventer = require("./Ex12Event");
 
-// Ex12Eventer.emitEx12PrintToFile("Ex12", "zzzzzzzzzzz");
+// Ex12Eventer.emitEx12PrintToFile("printInfo","Ex12", "GEDAMOZZZZZZZZZZZZZZ");
 
-// const Ex13eventer = require("./Ex13Event");
-// Ex13eventer.emit("printNames", "dsadsa", "xzxczxz", "zzzzzzzzzzz");
+const Ex13eventer = require("./Ex13Event");
+Ex13eventer.emitPrintArrToFile("dsadsa", "xzxczxz", "zzzzzzzzzzz","AAAAAAAAAAAAZZXZCXZCXZCX");
 
 ///!Finished Ex13
 
-const Ex14eventlistener = require('./Ex14Event');
-Ex14eventlistener.emit('printAges',2,22,63,4,55,11,100);
+// const Ex14eventlistener = require('./Ex14Event');
+// Ex14eventlistener.emit('printAges',2,22,63,4,55,11,100);
 
 
 

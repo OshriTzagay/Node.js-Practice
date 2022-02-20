@@ -9,7 +9,7 @@ class Ex12Class extends Ex12Event {
 
   onEx12PrintToFile() {
     this.on("printInfo", (fileName, info) => {
-      fs.writeFile(`${fileName}.txt`, `${info}`, () => {});
+      fs.writeFile(`./${fileName}.txt`, `${info}`, () => {});
     });
   }
   emitEx12PrintToFile(fileName,info) {
