@@ -93,6 +93,7 @@ const EventEmitter = require("events");
 // const Ex13eventer = require("./Ex13Event");
 // Ex13eventer.emit("printNames", "dsadsa", "xzxczxz", "zzzzzzzzzzz");
 
+///!Finished Ex13
 
 const Ex14eventlistener = require('./Ex14Event');
 Ex14eventlistener.emit('printAges',2,22,63,4,55,11,100);
